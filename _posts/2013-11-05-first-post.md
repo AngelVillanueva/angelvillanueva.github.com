@@ -2,7 +2,7 @@
 layout: post
 title: "First post"
 description: ""
-category: ""
+category: nueva categoria
 tags: []
 ---
 {% include JB/setup %}
