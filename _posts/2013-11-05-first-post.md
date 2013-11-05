@@ -4,6 +4,8 @@ title: "First post"
 description: ""
 category: nova
 tags: [pepper, intro, contaminación]
+comments: true
+share: true
 ---
 {% include JB/setup %}
 
