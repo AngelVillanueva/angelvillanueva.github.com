@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://angelvillanueva.es/feed.xml" />
 <link rel="alternate" type="text/html" href="http://angelvillanueva.es" />
-<updated>2013-11-06T16:34:11+01:00</updated>
+<updated>2013-11-06T17:02:10+01:00</updated>
 <id>http://angelvillanueva.es/</id>
 <author>
   <name>Angel Villanueva</name>
@@ -26,7 +26,7 @@
   </author>
   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/oTI8eZjxcRg&quot;&gt; &lt;/iframe&gt;
 
-&lt;p&gt;Video embeds (o mejor, embebeciones o embedeciones) are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
 
@@ -163,6 +163,16 @@ very interesting &lt;span class=&quot;keyword&quot;&gt;and&lt;/span&gt; awesome
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;div&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;hola&lt;span class=&quot;tag&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;php&quot;&gt;&lt;span class=&quot;x&quot;&gt;  $hola = 2;&lt;/span&gt;
+&lt;span class=&quot;x&quot;&gt;  echo $hola;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div&gt;&lt;div class=&quot;CodeRay&quot;&gt;
   &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;keyword&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;Jekyll&lt;/span&gt;
