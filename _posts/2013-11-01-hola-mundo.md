@@ -6,6 +6,9 @@ category: nova
 tags: [pepper, intro, contaminación]
 comments: true
 share: true
+image:
+  feature: abstract-7.jpg
+  background: triangular.png
 ---
 {% include JB/setup %}
 
@@ -23,9 +26,37 @@ Here `some code` to be learned, with some remarks:
 * 2
 
 # h1
+Código con coderay:
 
-    some code just by tabbing
-    some more
-    very interesting and awesome
+~~~ ruby
+some code just by tabbing
+some more require 'this/that'
+User.each do |u|
+very interesting and awesome
+~~~
 
-End of code, bua que fácil 
+~~~ ruby
+module Jekyll
+  class TagIndex < Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
+~~~
+
+Y finalmente una blockquote o como sea:
+
+> En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+Fin
