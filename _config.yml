@@ -2,7 +2,7 @@ title:            El blog de Angel
 description:      Blog personal de Angel Villanueva
 disqus_shortname: angelvperezblog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://angelvillanueva.es
 
 # Owner/author information
 owner:
