@@ -15,7 +15,7 @@
 {% if page.image.feature %}
 <div class="entry-header">
   <div class="entry-image"><img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}" itemprop="image">
-    {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+    {% if page.image.credit %}<div class="image-credit">Fuente de la imagen: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 {% endif %}
@@ -35,7 +35,7 @@
         {% if page.share %}<div class="social-share">
           <ul class="socialcount socialcount-small inline-list" data-url="{{ site.url }}{{ page.url }}" data-share-text="{{ page.title }}">
             <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Compartir en Facebook"><span class="count"><i class="icon-facebook-sign"></i> Gustóme</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Compartir en Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tuitearelo</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Compartir en Twitter"><span class="count"><i class="icon-twitter-sign"></i> Piarelo</span></a></li>
             <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Compartir en Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->{% endif %}
