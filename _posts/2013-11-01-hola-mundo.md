@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First post"
+title: "Hola mundo"
 description: ""
 category: nova
 tags: [pepper, intro, contaminación]
