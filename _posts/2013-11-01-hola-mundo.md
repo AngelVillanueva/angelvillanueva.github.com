@@ -23,14 +23,7 @@ Here `some code` to be learned, with some remarks:
 * 2
 
 # h1
-    {% highlight ruby linenos %}
-    some code just by tabbing
-    some more require 'this/that'
-    very interesting and awesome{% endhighlight %}
-
-End of code, bua que fácil
-
-Más código, ahora con coderay:
+Código con coderay:
 
 ~~~ ruby
 some code just by tabbing
