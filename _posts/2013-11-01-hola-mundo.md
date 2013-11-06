@@ -6,6 +6,9 @@ category: nova
 tags: [pepper, intro, contaminación]
 comments: true
 share: true
+image:
+  feature: abstract-7.jpg
+  background: triangular.png
 ---
 {% include JB/setup %}
 
@@ -51,3 +54,9 @@ module Jekyll
   end
 end
 ~~~
+
+Y finalmente una blockquote o como sea:
+
+> En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+Fin
