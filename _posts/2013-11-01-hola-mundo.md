@@ -23,9 +23,38 @@ Here `some code` to be learned, with some remarks:
 * 2
 
 # h1
-
+    {% highlight ruby linenos %}
     some code just by tabbing
-    some more
-    very interesting and awesome
+    some more require 'this/that'
+    very interesting and awesome{% endhighlight %}
 
-End of code, bua que fácil 
+End of code, bua que fácil
+
+Más código, ahora con coderay:
+
+~~~ ruby
+some code just by tabbing
+some more require 'this/that'
+User.each do |u|
+very interesting and awesome
+~~~
+
+~~~ ruby
+module Jekyll
+  class TagIndex < Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
+~~~
