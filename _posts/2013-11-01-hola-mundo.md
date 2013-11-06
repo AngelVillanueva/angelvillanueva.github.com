@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "First post"
+title: "Hola mundo"
 description: ""
 category: nova
 tags: [pepper, intro, contaminación]
+comments: true
+share: true
 ---
 {% include JB/setup %}
 
