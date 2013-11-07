@@ -1,4 +1,5 @@
 
+/404.html
 /about/
 /archive/index.html
 /atom.xml
@@ -8,11 +9,6 @@
 /rss.xml
 /sitemap.txt
 /tags/
-/page2/index.html
 
-/post-video
-/post-images
-/post-enlace
 /nova/hola-mundo
 /sample-post
-/lessons/jekyll-introduction
