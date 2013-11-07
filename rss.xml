@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>Cuaderno de Bitácora</title>
-        <description>Cuaderno de Bitácora - </description>
+        <title>Diario de a bordo</title>
+        <description>Diario de a bordo - </description>
         <link></link>
         <link></link>
-        <lastBuildDate>2013-11-07T12:17:21+01:00</lastBuildDate>
-        <pubDate>2013-11-07T12:17:21+01:00</pubDate>
+        <lastBuildDate>2013-11-07T12:31:35+01:00</lastBuildDate>
+        <pubDate>2013-11-07T12:31:35+01:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -16,6 +16,8 @@
 &lt;p&gt;This is my first post, it seems pretty simple to get a blog running.&lt;/p&gt;
 
 &lt;p&gt;It’s time to learn some more markdown, perhaps [here] (http://www.as.com).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://angelvillanueva.es/images/hpstr-jekyll-theme-preview.jpg&quot; alt=&quot;An Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ok, do not remember how to build a link with markdown, let’s see different things:&lt;/p&gt;
 

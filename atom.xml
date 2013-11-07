@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Cuaderno de Bitácora</title>
+ <title>Diario de a bordo</title>
  <link href="/" rel="self"/>
  <link href=""/>
- <updated>2013-11-07T12:17:21+01:00</updated>
+ <updated>2013-11-07T12:31:35+01:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -21,6 +21,8 @@
 &lt;p&gt;This is my first post, it seems pretty simple to get a blog running.&lt;/p&gt;
 
 &lt;p&gt;It’s time to learn some more markdown, perhaps [here] (http://www.as.com).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://angelvillanueva.es/images/hpstr-jekyll-theme-preview.jpg&quot; alt=&quot;An Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ok, do not remember how to build a link with markdown, let’s see different things:&lt;/p&gt;
 
