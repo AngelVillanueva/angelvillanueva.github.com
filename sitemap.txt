@@ -10,5 +10,6 @@
 /sitemap.txt
 /tags/
 
+/otro-post
 /nova/hola-mundo
 /sample-post
